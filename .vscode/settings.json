@@ -1,0 +1,12 @@
+{
+  "launch": {
+
+    "configurations": [],
+    "compounds": []
+  },
+  "liveSassCompile.settings.formats":[
+    {
+        "savePath": "/assets/css"
+    }
+  ]
+}
