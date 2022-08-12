@@ -14,7 +14,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  cursor:url(''),auot
 }
 
 .container {
@@ -24,6 +23,7 @@ body {
   padding: 0 40px;
   flex-direction: row;
   justify-content: space-between;
+  margin-top: -30px;
 }
 
 .intro {
@@ -35,7 +35,6 @@ h1 {
   line-height: 32px;
   font-weight: 700;
   margin-bottom: 24px;
-
 
   &:after {
     content: '';
@@ -78,6 +77,10 @@ p {
     align-items: center;
     justify-content: center;
     margin-right: 12px;
+
+    > i {
+      margin-top: 1px;
+    }
   }
 }
 
@@ -85,6 +88,7 @@ p {
   .container {
     width: auto;
     flex-direction: column;
+    margin-top: -20px;
   }
 
   .intro {
